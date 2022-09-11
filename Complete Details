@@ -1,0 +1,23 @@
+'''
+Sample Input 0
+Virat
+9988776655
+
+Sample Output 0
+Hello, Virat 998877655! You are a good student.
+
+'''
+
+name=input()
+
+n=(input())
+
+x=n[0:6]
+
+y=n[7:10]
+
+a=x+y
+
+txt = "Hello, {} {}! You are a good student."
+
+print(txt.format(name,a))
