@@ -1,0 +1,25 @@
+'''
+Sample Input 0
+6
+1
+2
+3
+4
+5
+10
+
+Sample Output 0
+5
+10
+15
+20
+25
+50'''
+
+t=int(input(""))
+for a in range (0,t):
+    n=int(input(""))
+    ans=n*5
+    print(ans)
+    
+    
