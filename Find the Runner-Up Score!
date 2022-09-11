@@ -1,0 +1,19 @@
+'''
+Sample Input 0
+5
+2 3 6 6 5
+
+Sample Output 0
+5
+'''
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    scores =list(arr)
+    max_score = max(scores)
+    runner_up=-999
+    for score in scores:
+        if score>runner_up and score <max_score:
+            runner_up =score
+    print(runner_up)
