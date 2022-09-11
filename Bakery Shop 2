@@ -1,0 +1,27 @@
+'''
+Sample Input
+3
+2
+3
+4
+
+Constraints
+1<=T<=200
+1<=Q<=200
+
+Output Format
+For each test case print the total bill.
+Sample Output
+106.2
+159.3
+212.4
+'''
+
+
+t=int(input(""))
+for a in range (0,t):
+    q=int(input(""))
+    ans=q*45+0.18*q*45
+    print(ans)
+    
+    
