@@ -1,0 +1,28 @@
+'''
+Sample Input 0
+4
+8
+10
+15
+20
+
+Sample Output 0
+30
+30
+55
+80
+'''
+
+t = int(input())
+for i in  range(0,t):
+     if(1<=t<=200):
+        h = int(input())
+        if(1<=h<=168):
+            if (h<=10):
+                bill= h*30
+                print(bill)
+            elif(h>10):
+                bill=10*30 + (h-10)*5
+                print(bill)
+                
+                
