@@ -1,0 +1,21 @@
+'''
+Sample Input 0
+3
+331
+666
+343
+
+Sample Output 0
+loses
+wins
+wins
+
+'''
+
+n = int(input())
+for i in range(n):
+    x = input()
+    if x == x[::-1]:
+        print("wins")
+    else:
+        print("loses")
