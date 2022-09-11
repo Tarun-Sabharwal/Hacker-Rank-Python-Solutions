@@ -1,0 +1,20 @@
+'''
+Sample Input
+qA2
+
+Sample Output
+True
+True
+True
+True
+True
+
+'''
+
+if __name__ == '__main__':
+    s = input()
+    print(any(map(str.isalnum, s)))
+    print(any(map(str.isalpha, s)))
+    print(any(map(str.isdigit, s)))
+    print(any(map(str.islower, s)))
+    print(any(map(str.isupper, s)))
