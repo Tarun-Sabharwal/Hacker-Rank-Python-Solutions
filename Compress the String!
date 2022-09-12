@@ -1,0 +1,14 @@
+'''
+Sample Input
+1222311
+
+Sample Output
+(1, 1) (3, 2) (1, 3) (2, 1)
+
+'''
+
+from itertools import *
+
+io = input()
+for i,j in groupby(map(int,list(io))):
+    print(tuple([len(list(j)), i]) ,end = " ")
