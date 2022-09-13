@@ -1,0 +1,13 @@
+'''
+Sample Input
+this is a string   
+
+Sample Output
+this-is-a-string
+
+'''
+
+def split_and_join(line):
+    a = line.split(" ")
+    a = "-".join(a)
+    return a
