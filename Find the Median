@@ -1,0 +1,15 @@
+'''
+Sample Input 0
+7
+0 1 2 4 6 5 3
+
+Sample Output 0
+3
+
+'''
+
+def findMedian(arr):
+    return sorted(arr)[len(arr)//2]
+input()
+arr = list(map(int,input().split()))
+print(findMedian(arr))
